@@ -281,12 +281,12 @@ countryList.forEach((e, i) => {
 });
 console.log(fcountries);
 
-//- Extract all the countries containing two or more words from the countries array and print it as array
+//-Extract all the countries containing two or more words from the countries array and print it as array
 
 var tOrMore = [];
 
 countryList.forEach((e, i) => {
-  if (e.length >= 2) {
+  if (e.split(" ").length >= 2) {
     tOrMore.push(e);
   }
 });

@@ -15,10 +15,10 @@ if (sortedAges.length % 2 == 0) {
     (sortedAges[sortedAges.length / 2] +
       sortedAges[sortedAges.length / 2 + 1]) /
     2;
-  console.log(medianAge);
+  console.log("Median is", medianAge);
 } else {
   var medianAge = sortedAges[Math.ceil(sortedAges.length / 2)];
-  console.log(medianAge);
+  console.log("Median is" + medianAge);
 }
 
 // average
