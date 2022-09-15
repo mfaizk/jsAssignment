@@ -434,5 +434,3 @@ const users = [
 //   }
 //   sayFistName();
 // }
-
-// sayHello();
